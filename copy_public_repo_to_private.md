@@ -32,10 +32,12 @@ Steps:
    * [new branch]      BRANCH_X                  -> forked_starters/BRANCH_X
    ```
 5. Checkout forked_starters/BRANCH_X in a local branch:
-   ``` git checkout -b local_BRANCH_X forked_starters/BRANCH_X
+   ``` 
+   git checkout -b local_BRANCH_X forked_starters/BRANCH_X
    ```
 6. Push your local branch (which has the original BRANCH_X from the FORKED_REPO in it) back to your mirror under the name of BRANCH_X.
-   ```git push origin -u local_BRANCH_X:BRANCH_X
+   ```
+   git push origin -u local_BRANCH_X:BRANCH_X
    ```
  
  Done!
